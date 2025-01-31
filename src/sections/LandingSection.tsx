@@ -48,7 +48,7 @@ export const LandingSection = () => {
         </motion.div>
       ) : (
         <div className="absolute inset-0 flex items-center justify-center">
-          <img src="/logo.jpg" alt="loading" className="w-[20rem] h-[20rem] rounded-full" />
+          <img src="/logo.jpg" alt="loading" className="w-[20rem] h-[20rem] rounded-full shadow-black shadow-3xl" />
         </div>
       )}
 

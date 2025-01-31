@@ -1,9 +1,9 @@
-import {useState} from "react";
-import {motion} from "framer-motion";
-import {ClassValue, clsx} from "clsx";
-import {twMerge} from "tailwind-merge";
-import {ProjectCard} from "./ProjectCard.tsx";
-import {Project} from "./Project.tsx";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { ClassValue, clsx } from 'clsx';
+import { twMerge } from 'tailwind-merge';
+import { ProjectCard } from './ProjectCard.tsx';
+import { Project } from './Project.tsx';
 
 export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
@@ -132,7 +132,7 @@ export const FadeInDiv = ({
 
 export const ProjectTabEntry = ({ title, content }: { title: string, content: Project[] }) => {
     return (
-        <div className="bg-background w-full h-[60rem] overflow-auto rounded-2xl p-10 ">
+        <div className="bg-background h-[60rem] overflow-auto rounded-2xl p-10 m-2">
             <h2 className="text-white font-semibold text-4xl mb-8">{title}</h2>
             <div className="flex flex-wrap justify-start h-auto gap-20">
                 {content.map((project: Project) => (

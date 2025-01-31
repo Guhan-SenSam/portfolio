@@ -1,7 +1,7 @@
-import {SubTitle} from "../components/SubTitle.tsx";
-import {motion} from "motion/react";
-import {TextGenerateEffect} from "../components/TextGenerate.tsx";
-import {TechBentoGrid} from "../components/TechBentoGrid.tsx";
+import { SubTitle } from '../components/SubTitle.tsx';
+import { motion } from 'motion/react';
+import { TextGenerateEffect } from '../components/TextGenerate.tsx';
+import { TechBentoGrid } from '../components/TechBentoGrid.tsx';
 
 const TECH = [
     {
@@ -129,7 +129,7 @@ const OTHER = [
 
 export const TechStackSection = () => {
     return (
-        <section className="w-screen  overflow-hidden bg-surface pb-[20rem]" id="techSection">
+        <section className="w-screen  overflow-hidden bg-surface sm:pt-[5rem]" id="techSection">
 
             <div className=" flex flex-col text-center mt-20 items-center justify-center">
                 <SubTitle words={["Tech Arsenal"]} duration={3000} className="text-5xl font-bold text-primary mb-2"/>
@@ -143,12 +143,11 @@ export const TechStackSection = () => {
                     viewport={{once: false, amount: 0.2}}
                     style={{originX: 0.5}}
                 />
-                <TextGenerateEffect words="Languages, Frameworks and Tools that I rely on" duration={2} filter={false}
-                                    className="text-2xl font-bold text-primary mb-2 text-white"/>
+                <TextGenerateEffect words="Languages, Frameworks and Tools that I rely on" duration={1} />
             </div>
 
             <TechBentoGrid data ={TECH}/>
-            <div className=" flex flex-col text-center mt-20 items-center justify-center">
+            <div className=" flex flex-col text-center mt-5 items-center justify-center">
                 <SubTitle words={["Other"]} duration={3000} className="text-5xl font-bold text-primary mb-2"/>
                 <motion.div
                     className="h-1 w-40 bg-blue-500 "
@@ -160,7 +159,7 @@ export const TechStackSection = () => {
                     viewport={{once: false, amount: 0.2}}
                     style={{originX: 0.5}}
                 />
-                <TextGenerateEffect words="Sofwtares, Hobbies and Linux🐧" duration={2} filter={false}
+                <TextGenerateEffect words="Sofwtares, Hobbies and Linux🐧" duration={2}
                                     className="text-2xl font-bold text-primary mb-2 text-white"/>
                 <TechBentoGrid data ={OTHER}/>
             </div>

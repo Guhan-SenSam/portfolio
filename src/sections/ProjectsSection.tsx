@@ -1,12 +1,12 @@
-import {SubTitle} from "../components/SubTitle.tsx";
-import {motion} from "motion/react";
-import {ProjectTabEntry, ProjectTabs} from "../components/projects/ProjectsTabs.tsx";
-import {useState} from "react";
-import {ProjectContext} from "../components/projects/ProjectContext.tsx";
-import {Project} from "../components/projects/Project.tsx";
+import { SubTitle } from '../components/SubTitle.tsx';
+import { motion } from 'motion/react';
+import { ProjectTabEntry, ProjectTabs } from '../components/projects/ProjectsTabs.tsx';
+import { useState } from 'react';
+import { ProjectContext } from '../components/projects/ProjectContext.tsx';
+import { Project } from '../components/projects/Project.tsx';
 
 import projectsData from '../components/projects/projects.json';
-import {ProjectSidecard, SlidePanel} from "../components/projects/SideCard.tsx";
+import { ProjectSidecard, SlidePanel } from '../components/projects/SideCard.tsx';
 
 const PROJECTS: Project[] = projectsData as unknown as Project[]; // Type assertion
 const filterProjectsByTag = (tag: string): Project[] => {
@@ -76,9 +76,9 @@ export const ProjectsSection = () => {
             currentProject
 
         }}>
-        <section className="w-screen overflow-hidden bg-surface  h-[90rem] " id="projectSection">
+        <section className="w-screen overflow-hidden bg-surface sm:pt-[10rem] h-[90rem] " id="projectSection">
             <div className=" flex flex-col text-center mt-20 items-center justify-center">
-                <SubTitle words={["Projects and Libraries"]} duration={3000} className="text-5xl font-bold text-primary mb-2"/>
+                <SubTitle words={["Projects and Libraries"]} duration={3000} className="sm:text-5xl text-3xl font-bold text-primary mb-2"/>
                 <motion.div
                     className="h-1 w-40 bg-blue-500 "
                     initial={{scaleX: 0}}

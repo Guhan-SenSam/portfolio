@@ -1,11 +1,12 @@
 import { LandingSection } from './sections/LandingSection.tsx';
 import { Navbar } from './components/NavBar.tsx';
 import { AboutSection } from './sections/AboutSection.tsx';
-import { Background } from './components/Background.tsx';
 import { TechStackSection } from './sections/TechStackSection.tsx';
 import { ProjectsSection } from './sections/ProjectsSection.tsx';
 import { ContactSection } from './sections/ContactSection.tsx';
 import { useEffect } from 'react';
+import { Background } from './components/Background.tsx';
+import Footer from './sections/Footer.tsx';
 
 function App() {
 
@@ -24,13 +25,14 @@ function App() {
 
     return (
       <>
-            <Background />
-            <Navbar />
-            <LandingSection/>
-            <AboutSection />
-            <TechStackSection />
-            <ProjectsSection />
-            <ContactSection />
+        <Background />
+        <Navbar />
+        <LandingSection/>
+        <AboutSection />
+        <TechStackSection />
+        <ProjectsSection />
+        <ContactSection />
+        <Footer />
       </>
     )
 }

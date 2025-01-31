@@ -1,8 +1,8 @@
 "use client";
-import {useEffect} from "react";
-import {motion, stagger, useAnimate, useInView} from "framer-motion";
-import {ClassValue, clsx} from "clsx";
-import {twMerge} from "tailwind-merge";
+import { useEffect } from 'react';
+import { motion, stagger, useAnimate, useInView } from 'framer-motion';
+import { ClassValue, clsx } from 'clsx';
+import { twMerge } from 'tailwind-merge';
 
 export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
@@ -55,11 +55,11 @@ export const TextGenerateEffect = ({
     return (
         <div className={cn("font-bold", className)}>
             <motion.div ref={scope} className="mt-4">
-                <div className="dark:text-white text-black text-2xl leading-snug tracking-wide">
+                <div className="text-white  sm:text-2xl text-sm font-normal sm:font-bold leading-snug tracking-wide">
                     {wordsArray.map((word, idx) => (
                         <motion.span
                             key={word + idx}
-                            className="dark:text-white text-black opacity-0"
+                            className="text-white opacity-0"
                             style={{ filter: filter ? "blur(10px)" : "none" }}
                         >
                             {word}{" "}

@@ -5,7 +5,7 @@ import { AnimatedTooltip } from '../components/AnimatedGroup.tsx';
 
 export const AboutSection = () => {
     return (
-        <section className="w-screen py-[10rem] overflow-hidden bg-surface " id="aboutSection">
+        <section className="w-screen sm:py-[5rem] overflow-hidden bg-surface " id="aboutSection">
 
             <div className=" flex flex-col text-center mt-20 items-center justify-center">
                 <SubTitle words={["About me"]} duration={3000} className="text-5xl font-bold text-primary mb-2"/>
@@ -21,9 +21,9 @@ export const AboutSection = () => {
                 />
             </div>
 
-            <div className={"flex flex-row w-full px-[25rem] py-20 justify-center gap-x-[5rem] "}>
-                <img src={"/me.webp"} alt="profile" className={"rounded-3xl h-[30rem] border-2 border-border hover:shadow-2xl hover:shadow-accent hover:border-accent transition-all transition-1000"}/>
-                <div className={"flex flex-col"}>
+            <div className={"flex flex-row w-full sm:px-[20%] px-5 sm:py-20 py-10 justify-center gap-x-[5rem] flex-wrap sm:flex-nowrap "}>
+                <img src={"/me.webp"} alt="profile" className={"rounded-3xl sm:h-[30rem] h-[25rem] border-2 border-border hover:shadow-2xl hover:shadow-accent hover:border-accent transition-all transition-1000"}/>
+                <div className={"flex flex-col sm:mt-0 mt-10"}>
                     <h1 className={"text-3xl text-white font-semibold"}> Origins:</h1>
                     <p className={"text-xl mt-3 text-gray-300 font-normal"}>
                         I am a self taught developer who specializes in mobile app development with over 5 years of

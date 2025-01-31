@@ -1,0 +1,74 @@
+[
+  {
+    "title" : "GameUP",
+    "small_description" : "A Cross Platform Mobile App built for Athletes and Institutes to compete and rank in various sports across their districts, states and countries.",
+    "big_description" : "GameUP is a cross platform mobile application built in React Native for both IOS and Android. The app allows for sports players to sign up and compete with other users on the app and includes an intuitive ranking system. This application uses numerous production standards and implements technologies such as Push Notifications, Real Time Chat using Websockets, state handling using Mobx State Tree, Android Native API's such as the Credential Manager etc.",
+    "image" : "https://www.aadinagarajan.com/_next/image?url=/gameup.png&w=1080&q=75",
+    "link" : "https://www.gameup.app",
+    "isOpenSource" : false,
+    "tags" : ["Mobile", "React Native", "Expo" ,"Production", "Cross-Platform", "Websocket Chat", "Push Notification"]
+  },
+  {
+    "title" : "IgCops || Unfollower Tracker",
+    "small_description" : "An Android App that unlocks a deep dive into your Instagram account analytics",
+    "big_description" : "IgCops is the perfect app for anyone looking to keep tabs on their Instagram account. With its advanced algorithms and numerous fail-safes, IgCops is the safest and most reliable way to track your Instagram account's stats. IgCops offers a variety of features that make it easy to keep track of your followers, unfollowers, and more. With IgCops, you can see who has recently followed or unfollowed you, as well as check your followers, following, mutual, not following you back, and the accounts that you are not following back all in one place. This application was built on a robust api reverse engineering system to work along with technologies such as Android Widgets and Background services",
+    "image" : "/projects/IgCops.png",
+    "link" : "https://www.gameup.app",
+    "isOpenSource" : false,
+    "tags" : ["Mobile", "Kotlin" ,"Production", "Reverse Engineering", "Android Widgets"]
+  },
+  {
+    "title" : "PicDF",
+    "small_description" : "An all-in-one PDF app with 8 tools",
+    "big_description" : "PicDF allows you to create, compress, merge, split, rotate, bookmark, encrypt, decrypt PDF's and many more. PicDF offers a powerful suite of tools for PDF manipulation while still remaining easy to use and understand. PicDF was a experimental application due to it being built entirely in Python using the Kivy framework. It was constructed to test the limits of what python could do in terms of mobile development and to see if it was possible to build a production ready application using python.",
+    "image" : "/projects/picdf.jpeg",
+    "link" : "https://github.com/Guhan-SenSam/PicDF",
+    "isOpenSource" : true,
+    "tags" : ["Mobile", "Python", "Experimental"]
+  },
+  {
+    "title" : "Reminder App",
+    "small_description" : "An android app for creating reminders made using the kivy and kivyMD framework for python.",
+    "big_description" : "This reminder app organizes your reminders into lists. You can create multiple lists that contains reminders inside them. Each reminder can be set to notify you through notifications on a particular day or date at a specific time. This app was built using the Kivy and KivyMD framework for python and was the first movile application I attempted to build",
+    "image" : "/projects/Reminder.png",
+    "link" : "https://github.com/Guhan-SenSam/Reminder-App",
+    "isOpenSource" : true,
+    "tags" : ["Mobile", "Python", "Experimental"]
+  },
+  {
+    "title" : "NeuKivy",
+    "small_description" : "A collection of Neumorphic widgets made with kivy",
+    "big_description" : "Neukivy is a collection of neumorphic widgets built with Kivy. ",
+    "image" : "https://github.com/Guhan-SenSam/NeuKivy/blob/main/images/demo.png?raw=true",
+    "link" : "https://github.com/Guhan-SenSam/NeuKivy",
+    "isOpenSource" : true,
+    "tags" : ["Mobile", "Python", "Library", "Desktop"]
+  },
+  {
+    "title" : "KivAds",
+    "small_description" : "Implement Admob Support Directly into your kivy programs ",
+    "big_description" : "A comprehensive guide into creating notification on android using python ",
+    "image" : "/projects/KivAds.png",
+    "link" : "https://github.com/Guhan-SenSam/KivAds",
+    "isOpenSource" : true,
+    "tags" : ["Mobile", "Python", "Library"]
+  },
+  {
+    "title" : "Android Notifications in Python Guide",
+    "small_description" : "A comprehensive guide into creating notification on android using python",
+    "big_description" : "A python SDK built to wrap the Google Admob API in order to implement Google Admob ads into a Kivy Application. This library was constructed after I found that there was no easy way to implement Admob ads into a Kivy application.",
+    "image" : "/projects/AndroidNotification.png",
+    "link" : "https://github.com/Guhan-SenSam/Android-Notification-in-Python",
+    "isOpenSource" : true,
+    "tags" : ["Mobile", "Python", "Library", "Guide"]
+  },
+  {
+    "title": "TheSolaAI",
+    "small_description": "AI Voice Assistant for Solana Blockchain",
+    "big_description": "Sola AI is a personalized AI voice assistant that seamlessly integrates Solana blockchain technology with AI, offering a hands-free user experience. It enables smooth interaction between users, OpenAI, and blockchain data through both voice and text. The application utilizes WebRTC for real-time voice and text communication, features a modern frontend built with Vite React and styled with Tailwind CSS, and employs a scalable microservices architecture for efficient data processing. It also includes blockchain data filtering, allowing microservices to process and refine blockchain data based on user queries, and supports Solana on-chain interactions such as transfers and swaps.",
+    "image" : "https://github.com/TheSolaAI/sola-application/blob/main/public/app-screenshot.png?raw=true",
+    "link" : "github.com/TheSolaAI/sola-application",
+    "isOpenSource" : true,
+    "tags" : ["BlockChain", "Frontend", "React", "TypeScript", "Solana", "AI", "Voice Assistant", "WebRTC", "Microservices", "Contributor"]
+  }
+]

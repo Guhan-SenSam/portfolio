@@ -27,6 +27,15 @@
     "tags" : ["Mobile", "Python", "Experimental"]
   },
   {
+    "title": "Catapult React Native Boilerplate",
+    "small_description": "A batteries-included React Native boilerplate inspired by Ignite.",
+    "big_description": "Catapult is a highly opinionated React Native boilerplate with batteries included, based on the widely used and battle-tested Ignite Boilerplate. Developed by Oxlac Tech LLP, it's designed to streamline the creation of mobile applications by incorporating essential features and packages out-of-the-box. Enhancements include nativewind for styling, advanced modals and bottom sheet components, persistent and non-persistent root stores via MobX state trees, a generic API model with built-in error handling and authorization, custom in-app alerts, modern haptic feedback for both Android and iOS, secure storage solutions, and Firebase Analytics and Remote Config integration. Additionally, it provides user alerts for internet connectivity changes and is compatible with both `expo prebuild` and `expo go` workflows.",
+    "image": "https://github.com/oxlac/Catapult/raw/main/assets/logo.png",
+    "link": "https://github.com/oxlac/Catapult",
+    "isOpenSource": true,
+    "tags": ["React Native", "Boilerplate", "Mobile", "Mobile Development", "JavaScript", "TypeScript"]
+  },
+  {
     "title" : "Reminder App",
     "small_description" : "An android app for creating reminders made using the kivy and kivyMD framework for python.",
     "big_description" : "This reminder app organizes your reminders into lists. You can create multiple lists that contains reminders inside them. Each reminder can be set to notify you through notifications on a particular day or date at a specific time. This app was built using the Kivy and KivyMD framework for python and was the first movile application I attempted to build",
@@ -62,6 +71,52 @@
     "isOpenSource" : true,
     "tags" : ["Mobile", "Python", "Library", "Guide"]
   },
+  {
+    "title": "Sticky Notes Program",
+    "small_description": "A simple sticky notes program made using the kivy framework for python",
+    "big_description": "A simple sticky notes program made in Kivy and KivyMD for demonstrating how easy it is to create a good looking desktop application with these frameworks. The application uses a MySQl database for storing the data. It also boasts support for multiple uses with sign in and sign up functionality. Sticky notes can be grouped, searched and colored individually.",
+    "image" : "https://github.com/Guhan-SenSam/StickyNote-Program/blob/master/images/mainscreen.png?raw=true",
+    "link" : "https://github.com/Guhan-SenSam/StickyNote-Program",
+    "isOpenSource" : true,
+    "tags" : ["Desktop", "Python", "Kivy", "KivyMD", "MySQL"]
+  },
+  {
+    "title" : "Zeon Know Your Customer",
+    "small_description" : "A custom KYC system built for use in rural areas of India",
+    "big_description": "Zeon KYC is a custom Know Your Customer system built for user in rural places in India. The frontend and backend where constructed as part of a 24 hour hackathon with a team of four memebers. The front-end was constructed using pure HTML and Javascript whereas the backend was constructed using a python flask server. The system allowed for users to simply display their government issues Id Card and Zeon would identify the type of card, extract the information entered and attempt to verify its authenticity using free online government tools. Any captchas that where required where presented to the user for an extra level of security. Facial matching was also present to match live images with the images on the ID card.",
+    "image" : "/projects/zeon_kyc.png",
+    "link" : "https://github.com/Team-Zeon/Zeon-KYC",
+    "isOpenSource" : true,
+    "tags" : ["Frontend", "Python", "Flask", "HTML", "Javascript", "Hackathon", "Scraping", "KYC"]
+  },
+  {
+    "title" : "EdArchives",
+    "small_description" : "A platform for users to share and view educational resources for any topic under the sun",
+    "big_description" : "EdArchives was a concept app built for a 12 hour hackathon. The inspiration for the project idea was from Reddit. Reddit is a go to place for getting infomration on almost anything, however it requires careful analyiss as the quality of information as well as the authenticity cannot be verified. EdArchives proposes a system similar to wikipedia but in a reddit style format. The app was built in Kotlin and used Firebase Authentication. The backend was built in Django.",
+    "image" : "/projects/edarchives.png",
+    "link" : "https://github.com/Oxlac-Hackathons/Ed-Archive",
+    "isOpenSource" : true,
+    "tags" : ["Mobile", "Kotlin", "Firebase", "Django", "Hackathon", "Education"]
+  },
+  {
+    "title": "ClayFactory Game",
+    "small_description": "A pattern matching game with Kivy for Python with a rule based AI",
+    "big_description": "A pattern matching game made in python. The goal of the game was to use various glay colors and clay sizes to recreate a randomly  generated pattern on the screen. There where 20 levels for each difficulty that was pre generated, and also an infinite level generation mode. Each of the levels used a rule based AI in order to generate the levels and also an image matching AI in order to determine if a player had properly recreated an image.",
+    "image" : "",
+    "link" : "",
+    "isOpenSource" : false,
+    "tags" : ["Desktop", "Python", "Kivy", "AI", "Game"]
+  },
+  {
+    "title": "Mr.DM",
+    "small_description": "A quick and easy tool for automating your Instagram DMs.",
+    "big_description": "MR.DM is a tool for automating your Instagram DMs. Sending marketing messages about your newly launched products to your followers is a tiring process to accomplish manually. MR.DM can solve all of that in just 3 simple steps. Mr.DM uses selenium to automate the process of sending messages to your followers. It also uses a simple GUI to make the process of sending messages even easier.",
+    "image": "https://github.com/Oxlac/MR.DM/blob/main/assets/main_image.png?raw=true",
+    "link": "https://github.com/Oxlac/MR.DM",
+    "isOpenSource": true,
+    "tags": ["Desktop", "Python", "Selenium", "GUI"]
+  },
+
   {
     "title": "TheSolaAI",
     "small_description": "AI Voice Assistant for Solana Blockchain",

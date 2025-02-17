@@ -2,13 +2,12 @@ import { AwesomeButton } from 'react-awesome-button';
 import Spline from '@splinetool/react-spline';
 
 export const ContactSection = () => {
-
   return (
     <section className="w-screen overflow-hidden bg-surface pb-[5rem] flex" id="contactSection">
-      <div className="h-[40rem]  flex justify-center items-center w-[50%]">
+      <div className="h-[40rem] justify-center items-center w-[50%] sm:flex hidden">
         <Spline
           scene="https://prod.spline.design/yWLZnQoDG5X5jt2l/scene.splinecode"
-          style={{ transform: "scale(1.1)" }}
+          style={{ transform: 'scale(1.1)' }}
         />
       </div>
 
@@ -19,11 +18,12 @@ export const ContactSection = () => {
             I am always open to new opportunities and collaborations. Feel free to reach out to me.
           </p>
           <div className="mt-10 self-center w-full">
-            <AwesomeButton type="secondary" className="w-full">Contact Me</AwesomeButton>
+            <AwesomeButton type="secondary" className="w-full">
+              Contact Me
+            </AwesomeButton>
           </div>
         </div>
       </div>
     </section>
-
   );
-}
+};

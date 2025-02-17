@@ -72,7 +72,7 @@ export const ProjectsSection = () => {
       }}>
       <section
         className="w-screen overflow-hidden bg-surface sm:pt-[10rem] sm:h-[90rem] h-[80rem] "
-        id="projectSection">
+        id="projectsSection">
         <div className=" flex flex-col text-center mt-20 items-center justify-center">
           <SubTitle
             words={['Projects and Libraries']}
@@ -90,7 +90,7 @@ export const ProjectsSection = () => {
             style={{ originX: 0.5 }}
           />
         </div>
-        <div className="[perspective:1000px] relative flex flex-col max-w-[90rem] mx-auto w-full justify-start mt-10 h-full">
+        <div className="[perspective:1000px] flex flex-col max-w-[90rem] mx-auto w-full justify-start mt-10 h-full">
           <ProjectTabs tabs={TABS} />
         </div>
         <SlidePanel isOpen={isOpen} onClose={closeProject}>
